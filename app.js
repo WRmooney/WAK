@@ -34,10 +34,10 @@ async function loadTextFile() {
 const currentPage = window.location.pathname.split('/').pop(); 
 
 
-if (currentPage === 'index.html') {
+if (currentPage === 'WAK/index.html') {
     console.log('This is the Home page.');
     // Add Home page-specific code here
-} else if (currentPage === 'values.html') {
+} else if (currentPage === 'WAK/values.html') {
     console.log('This is the About page.');
     window.onload = loadTextFile;
 
